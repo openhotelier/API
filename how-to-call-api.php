@@ -2,7 +2,7 @@
 $ohEndpoint = 'https://openhotelier.com/api/partner/v2/';
 $rawJsonData = '{  
 				   "country_code" : "mv",  
-				   "action" : "4",  
+				   "action" : "property_list_by_country",  
 				   "xml" : "0"  
                }';
 $curl = curl_init($ohEndpoint);
